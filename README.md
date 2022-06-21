@@ -38,9 +38,12 @@ The pcs Dataframe was then used to run a K-Means algorithm with 4 clusters. A ne
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.45%20PM.png)
 
 ### 3-D Scatter Plot
+In order to visualize the distinct groups that correspond to the 3 principal components from our PCA and K-means algorithm, a 3-d scatter plot was used. Using the **Plotly Express scatter_3d()** function the three clusters from the Clustered Dataframe were plotted.
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.56.01%20PM.png)
 
 ### HvPlot Table
+Then using the **hvplot.table()** function a table was made to show each Cryptocurrencies coin name, algorithm, proof type, total coin supply, total coins mined, and class. 
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.54.09%20PM.png)
 
 ### MinMax Scalar DataFrame
