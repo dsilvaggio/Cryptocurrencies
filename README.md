@@ -19,12 +19,17 @@ The CoinName and IsTrading columns were removed from our crypto Dataframe since 
 
 ### Create variables for text features
 The **get_dummies()** method was then used to create variables for two text features in our DataFrame, Algorithm and ProofType. The resulting data was stored in a new DataFrame called X.
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.16%20PM.png)
 
 ### PCA Algorithm Results
+Before performing PCA, our X data was first scaled using **StandardScalar()**. PCA was then applied to reduce the dimension to 3 principal components. The results were stored in pcs Dataframe. 
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.28%20PM.png)
 
 ### Elbow Curve
+In order to find the best value for K for the K-Means algorithm, an elbow curve was created using the above pcs Dataframe and **hvPlot**. Based on the below elbow curve, the best K value is 4. 
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.36%20PM.png)
 
 ### Clustered DataFrame
