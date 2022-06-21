@@ -13,6 +13,8 @@ A second DataFrame was then created to hold all the names of these cryptocurrenc
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.52.52%20PM.png)
 
 ### Cleaned Crypto DataFrame
+
+The CoinName and IsTrading columns were removed from our crypto Dataframe since they will not be needed in the clustering algoithm. Rows with any null values were also dropped. The final cleaned cryto DataFrame for use to perform PCA is below. 
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.07%20PM.png)
 
 ### Create variables for text features
