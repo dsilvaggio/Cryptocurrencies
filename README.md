@@ -2,7 +2,14 @@
 ## Overview
   Accountability Accounting, an investment bank, is interested in potentially offering a cryptocurrency investment portfolio to its customers. They requested a report be created that includes the cryptocurrencies currently on the trading market and how they should be grouped to create a classification system for this new investment.
   
-  To create the report, the data was processed and fitted to machine learning models. Unsupervised learning was used since there was no known output. To group the cryptocurrencies, a clustering algorithm was used and visualizations were used to display findings with the board.  
+  To create the report, the data was processed and fitted to machine learning models. Unsupervised learning was used since there was no known output. To group the cryptocurrencies, a clustering algorithm was used and visualizations were used to display findings with the board.
+  
+## Resources/Tools
+- crypto_data.csv retreved from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
+- hvPlot
+- sklearn
+- Plotly Express
+- Pandas
 
 ## Results
 To perform PCA, the dataset needed to first be preprocessed. After reading in the CSV and creating an initial crypto DataFrame, the crypto Dataframe was filtered to contain only the cryptocurrencies currently being traded and where coins have been mined.
