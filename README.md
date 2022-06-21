@@ -5,7 +5,7 @@
   To create the report, the data was processed and fitted to machine learning models. Unsupervised learning was used since there was no known output. To group the cryptocurrencies, a clustering algorithm was used and visualizations were used to display findings with the board.
   
 ## Resources/Tools
-- crypto_data.csv retreved from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
+- crypto_data.csv retrieved from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
 - hvPlot
 - sklearn
 - Plotly Express
