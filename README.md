@@ -1,5 +1,9 @@
 # Cryptocurrencies
 ## Overview
+  Accountability Accounting, an investment bank, is interested in potentially offering a cryptocurrency investment portfolio to its customers. They requested a report be created that includes the crypotocurrencies currently on the trading market and how they should be grouped together to create a classification system for this new incestment.
+  
+  To create the report, the data was processed and fitted to machine learning models. Unsupervised learning was used since there was no known output. To group the cryptocurrencies, a clustering algorithm was used and visualizatoin were used to display findings with the board.  
+
 ## Results
 
 ### Coin Name DataFrame
