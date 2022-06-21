@@ -52,6 +52,8 @@ The MinMaxScalar().fit_transform method was used to scale the TotalCoinSupply an
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.54.02%20PM.png)
 
 ### Scatter Plot
+Finally, a scatterplot was created using **hvPlot** with TotalCoinsMined as the x values, TotalCoinSupply as the y values, and the points were colored by their class.
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.55%20PM.png)
 
 
