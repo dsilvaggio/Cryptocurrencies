@@ -33,6 +33,8 @@ In order to find the best value for K for the K-Means algorithm, an elbow curve 
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.36%20PM.png)
 
 ### Clustered DataFrame
+The pcs Dataframe was then used to run a K-Means algorithm with 4 clusters. A new clustered DataFrame was then created by concatenating the cleaned crypto Dataframe and the pcs dataframe using an inner join. A new CoinName column was added to this DataFrame using the Coin Name Dataframe that was created in the beginning. Another new Class column was then added to the clustered DataFrame that contained all of the predictions from the K-Means algorithm. The final Clustered Dataframe is below. 
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.45%20PM.png)
 
 ### 3-D Scatter Plot
