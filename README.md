@@ -18,6 +18,7 @@ The CoinName and IsTrading columns were removed from our crypto Dataframe since 
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.07%20PM.png)
 
 ### Create variables for text features
+The **get_dummies()** method was then used to create variables for two text features in our DataFrame, Algorithm and ProofType. The resulting data was stored in a new DataFrame called X.
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.53.16%20PM.png)
 
 ### PCA Algorithm Results
