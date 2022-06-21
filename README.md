@@ -63,4 +63,4 @@ Finally, a scatterplot was created using **hvPlot** with TotalCoinsMined as the 
 
 
 ## Summary
-From the above results, there are 532 tradale cryptocurrencies from our dataset. Our clustering algorithm successfully classfified these cryptocurrencies into 3 groups based on the given features. Further analysis of these groups could then be performed to determine any similarities and potential interest in addding the coins to investment portfolios.  
+From the above results, there are 532 tradable cryptocurrencies in our dataset. Our clustering algorithm successfully classified these cryptocurrencies into 3 groups based on the given features. Further analysis of these groups could then be performed to determine any similarities and potential interest in adding the coins to investment portfolios.  
