@@ -1,14 +1,14 @@
 # Cryptocurrencies
 ## Overview
-  Accountability Accounting, an investment bank, is interested in potentially offering a cryptocurrency investment portfolio to its customers. They requested a report be created that includes the crypotocurrencies currently on the trading market and how they should be grouped together to create a classification system for this new incestment.
+  Accountability Accounting, an investment bank, is interested in potentially offering a cryptocurrency investment portfolio to its customers. They requested a report be created that includes the cryptocurrencies currently on the trading market and how they should be grouped to create a classification system for this new investment.
   
-  To create the report, the data was processed and fitted to machine learning models. Unsupervised learning was used since there was no known output. To group the cryptocurrencies, a clustering algorithm was used and visualizatoin were used to display findings with the board.  
+  To create the report, the data was processed and fitted to machine learning models. Unsupervised learning was used since there was no known output. To group the cryptocurrencies, a clustering algorithm was used and visualizations were used to display findings with the board.  
 
 ## Results
-In order to perform PCA, the dataset needed to first be preprocessed. After reading in the csv and creating an initial crypto DataFrame, the crypto Dataframe was filtered to contain only the crytocurrencies currently being traded and where coins that have been mined.
+To perform PCA, the dataset needed to first be preprocessed. After reading in the CSV and creating an initial crypto DataFrame, the crypto Dataframe was filtered to contain only the cryptocurrencies currently being traded and where coins have been mined.
 
 ### Coin Name DataFrame
-A second DataFrame was then created to hold all the names of these cryptocurrencies for future use. The Dataframe with the names of currently traded cryptocurrencies can be seen helow:  
+A second DataFrame was then created to hold all the names of these cryptocurrencies for future use. The Dataframe with the names of currently traded cryptocurrencies can be seen below:  
 
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.52.52%20PM.png)
 
