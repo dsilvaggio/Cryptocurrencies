@@ -47,6 +47,8 @@ Then using the **hvplot.table()** function a table was made to show each Cryptoc
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.54.09%20PM.png)
 
 ### MinMax Scalar DataFrame
+The MinMaxScalar().fit_transform method was used to scale the TotalCoinSupply and TotalCoinsMined columns between 0 and 1. A new Dataframe was created with the newly scaled TotalCoinSupply and TotalCoinsMined columns, as well as the CoinNames column from our coin names DataFrame and the class from our clustered DataFrame. 
+
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.54.02%20PM.png)
 
 ### Scatter Plot
