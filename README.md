@@ -42,7 +42,7 @@ In order to visualize the distinct groups that correspond to the 3 principal com
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.56.01%20PM.png)
 
 ### HvPlot Table
-Then using the **hvplot.table()** function a table was made to show each Cryptocurrencies coin name, algorithm, proof type, total coin supply, total coins mined, and class. 
+Then using the **hvplot.table()** function a table was made to show each Cryptocurrencies coin name, algorithm, proof type, total coin supply, total coins mined, and class. Based on the table and our above DataFrames, there are **532 tradable cryptocurrencies**.  
 
 ![This is an image](https://github.com/dsilvaggio/Cryptocurrencies/blob/main/Resources/Screen%20Shot%202022-06-20%20at%209.54.09%20PM.png)
 
